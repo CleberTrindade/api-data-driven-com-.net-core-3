@@ -16,7 +16,7 @@ namespace Shop.Controllers
         {
             var emploee = new User { Id = 1, Username = "robin", Password = "robin", Role = "employee" };
             var manager = new User { Id = 2, Username = "batman", Password = "batman", Role = "manager" };
-            var category = new Category { Id = 1, Title = "Informática" };
+            var category = new Category { Id = 1, Title = "Informática..." };
             var product = new Product { Id = 1, Category = category, Title = "Mouse", Price = 299, Description = "Mouse Gamer" };
 
             context.Users.Add(emploee);
