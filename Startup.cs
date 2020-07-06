@@ -67,16 +67,10 @@ namespace Shop
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-<<<<<<< HEAD
-            if (env.IsDevelopment())
-                app.UseDeveloperExceptionPage();
 
-=======
             if (env.IsDevelopment())            
                 app.UseDeveloperExceptionPage();
-            
->>>>>>> d4e2d1dd8274e21ed7e3378e42b3397b732c6ac2
-
+          
             app.UseHttpsRedirection();
 
             app.UseSwagger();
