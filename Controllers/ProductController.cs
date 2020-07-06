@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Shop.Data;
 using Shop.Models;
 
-[Route("products")]
+[Route("v1/products")]
 public class ProductController : ControllerBase
 {
     [HttpGet]
